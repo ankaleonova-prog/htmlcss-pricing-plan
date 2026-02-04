@@ -70,6 +70,9 @@
     font-weight: bold;  
     color: white;  
     font-size: 12px;
-    
 
+
+}
+.list{
+    list-style: none
 }
