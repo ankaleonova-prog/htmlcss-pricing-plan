@@ -1,4 +1,40 @@
-body{
+ body{
     max-width: 900px;
     margin: 0 auto;
+    font-family: sans-serif;
+
+ }
+ h2{
+    color: black;
+}
+ .card-style{
+    position: relative;
+    padding: 1rem;
+    border: 1px  solid; color: rgb(212, 212, 212);
+    min-height: 150px;
+    box-shadow: 0px 0px 10px 5px
+    
+ }
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+.grey{
+    color: grey;
+    font-size: 10px;
+}
+.price{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.row{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.dollars{
+    color: black
+    ;
 }
