@@ -1,78 +1,94 @@
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
  body{
+    font-family: sans-serif;
+ }
+ button{
+    background-color: transparent;
+    border-style: none;
+ }
+:root{
+
+}
+
+.conteiner{
     max-width: 900px;
     margin: 0 auto;
-    font-family: sans-serif;
-
- }
- h2{
-    color: black;
-}
- .card-style{
-    position: relative;
-    padding: 1rem;
-    border: 1px  solid; color: rgb(212, 212, 212);
-    min-height: 150px;
-    box-shadow: 0px 0px 10px 5px
-    
- }
-.conteiner{
-    display: flex;
-    flex-direction: column;
-}
-.grey{
-    color: grey;
-    font-size: 10px;
-}
-.price{
-    color: black;
-    font-size: 50px;
-    font-weight: bold;
-    
-    
-}
-.row{
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
-.dollars{
-    color: black;
    
 }
-.col{
-   display: flex;
-   justify-content: center;
-   margin: 10px;
-   color: black;
-   align-items: center;
-   font-size: 10px;
+.card{
+    padding: 1rem;
 
 }
-.off{
-    background-color: rgb(232, 228, 228);
-    border-color: gray;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 5px;
-}
-.btn{
+.plan{
+    margin-bottom: 1rem;
+}.row{
     display: flex;
-    max-width: 400px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col{
+    flex-basis: calc(100% / 3 (15 * 3) 3);
+    min-width: 290px;
+    flex-grow: 1;
+    min-height: 400px;
+    
+
+}
+.accent{
     background-color: #6500ff;
-    height: 50px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-
-
+    color: white;
 }
-.Choose{
-    font-weight: bold;  
-    color: white;  
-    font-size: 12px;
-
-
+#place {
+    padding: 1rem;
 }
+    header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .toggler{
+    flex-grow: 1;
+    text-align: end;
+ }
+ }
+ .card{
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px; rgba( 128, 128, 128, 0.2)
+    text-align: center;
+
+    .cardb{
+        text-align: center;
+    }
+ }
+ .text-price{
+    font-size: 3rem;
+    font-weight: bold;
+ }
+.priec{    
+    margin: 1.5rem;
+ }
+.grey{
+    color: gray;
+    font-size: 11px;
+}
+.unstyle{
+    list-style: none;
+}
+
 .list{
-    list-style: none
+    ul{
+        line-height: 2rem;
+
+        li > span{
+            font-size: 14px;
+        }
+    }
 }
